@@ -17,6 +17,8 @@ pipelines:
           name: make-preview
         - sh: jx preview --app $APP_NAME --dir ../..
           name: jx-preview
+        - sh: echo "HEI FUNGERER DETTE????"
+          name: fungerer-det
 
   release:
     build:
