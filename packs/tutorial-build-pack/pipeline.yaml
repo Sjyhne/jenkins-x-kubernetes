@@ -1,6 +1,4 @@
-extends:
-  import: classic
-  file: javascript/pipeline.yaml
+buildPack: none
 pipelines:
   pullRequest:
     build:
